@@ -50,22 +50,22 @@ int main() {
     }
 
     // Question 3
-    cout << "Q3. Which company created ChatGPT?\n";
-    cout << "A. Google\n";
-    cout << "B. Microsoft\n";
-    cout << "C. OpenAI\n";
-    cout << "D. Apple\n";
+    cout << "Q3. Which of the following is a potential AI Safety risk?\n";
+    cout << "A. AI generating misinformation \n";
+    cout << "B. AI having too little data\n";
+    cout << "C. AI being open source\n";
+    cout << "D. AI using electricity\n";
 
     cout << "Enter your answer: ";
     cin >> answer;
 
     // Check the answer
-    if(answer == 'C' || answer == 'c'){
+    if(answer == 'A' ||answer == 'a'){
         cout << "Correct!\n\n";
         score++;
     }
     else{
-        cout << "Wrong! Correct answer is C.\n\n";
+        cout << "Wrong! Correct answer is A.\n\n";
     }
 
     // return final score
